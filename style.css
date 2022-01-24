@@ -1,0 +1,319 @@
+body,
+html {
+  margin: 0px;
+  text-align: center;
+  color: #40514e;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.skills {
+  margin-top: 0px;
+  padding-top: 1%;
+  height: 100%;
+}
+.theBody {
+  background-color: #eaeaea;
+}
+.heading_body {
+  padding-top: 10%;
+}
+.headingName {
+  font-family: "Dancing Script", cursive;
+  font-size: 600%;
+  color: #2e4c6d;
+}
+.heading {
+  color: #2e4c6d;
+  font-family: "Dongle", sans-serif;
+  font-size: 300%;
+}
+
+.top {
+  height: 100%;
+  text-align: center;
+  padding-top: 0px;
+  background-image: url(images/theback.jpg);
+  background-size: cover;
+}
+
+.hr {
+  border: dotted 5px;
+  border-bottom: none;
+  width: 4%;
+  color: #e6cca9;
+}
+.profile {
+  position: absolute;
+  left: 55px;
+  top: 150px;
+  width: 70px;
+  height: 70px;
+  opacity: 0.8;
+}
+.profile:hover {
+  opacity: 1;
+}
+.skillsWord {
+  height: 10%;
+}
+.skill-row {
+  width: 90%;
+  margin: 0px auto;
+  text-align: left;
+  line-height: 2;
+  height: 44%;
+}
+
+.computer1 {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.computer2 {
+  width: 25%;
+  height: 80%;
+  float: right;
+  margin-left: 50px;
+}
+h2,
+h3 {
+  color: #69dadb;
+}
+.bottom-container {
+  margin-top: 60px;
+  background-color: #041c32;
+  padding: 50px 0 20px;
+}
+.contact-message {
+  line-height: 1;
+  width: 40%;
+  margin: 10px auto;
+}
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+#copy {
+  color: #949ea7;
+  margin: 20px auto;
+  font-size: 15px;
+}
+.btn {
+  background: #71dfe7;
+  background-image: -webkit-linear-gradient(top, #69dadb, #69dadb);
+  background-image: -moz-linear-gradient(top, #69dadb, #69dadb);
+  background-image: -ms-linear-gradient(top, #69dadb, #69dadb);
+  background-image: -o-linear-gradient(top, #69dadb, #69dadb);
+  background-image: linear-gradient(to bottom, #69dadb, #69dadb);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: ffffff;
+  font-size: 20px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #69dadb;
+}
+.footer-link:hover {
+  color: #69dadb;
+}
+.phone {
+  color: #f5eedc;
+}
+
+.contact-me {
+  margin-top: 10% auto;
+}
+
+/*******************************************about me**************************************/
+.forme {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgb(2, 0, 36);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(113, 235, 255, 0.8323704481792717) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(113, 235, 255, 0.8323704481792717) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(113, 235, 255, 0.8323704481792717) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
+.meProfile {
+  position: relati ve;
+  height: 50%;
+  width: 50%;
+  margin: 0 auto 0 0;
+  margin-top: 20px;
+  margin-bottom: 30%;
+}
+.me {
+  float: left;
+  width: 35%;
+  height: 30%px;
+  border-radius: 50%;
+
+  left: 0px;
+  margin-top: 40px;
+}
+
+.name {
+  font-family: "Montagu Slab", serif;
+  padding-top: 80px;
+  color: #506d84;
+}
+.work {
+  font-family: "Montagu Slab", serif;
+
+  color: #506d84;
+}
+h4 {
+  font-family: "Montagu Slab", serif;
+
+  color: #506d84;
+  font-size: 15px;
+}
+.aboutme {
+  text-align: left;
+}
+
+.about {
+  line-height: 2;
+  width: 70%;
+  margin: 100px auto;
+}
+.project {
+  width: 90%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#project2 {
+  width: 90%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  height: 80%;
+}
+.InnerProject2 {
+  padding-top: 5%;
+}
+.project2 {
+  float: left;
+  width: 30%;
+  height: 60%;
+}
+.proj1 {
+  float: right;
+  width: 30%;
+  height: 60%;
+}
+.proj3 {
+  float: left;
+  width: 30%;
+  height: 60%;
+}
+.projectlist {
+  text-align: left;
+  line-height: 2;
+}
+.projectlist3 {
+  text-align: left;
+  line-height: 2;
+}
+.projname2 {
+  text-align: right;
+  color: #40514e;
+}
+.proj2 {
+  float: left;
+}
+.projectlist1 {
+  padding: 100px auto;
+  text-align: left;
+  color: #40514e;
+  line-height: 2;
+}
+/*******************************************For Both pages**************************************/
+
+.theTitles {
+  color: #69dadb;
+}
+.project3 {
+  height: 90%;
+  width: 90%;
+  margin: 5% auto;
+}
+.innerProject3 {
+  padding-top: 5%;
+}
+.custom-navbar {
+  /* height: 7%;
+  border: none !important;
+  outline: none !important; */
+
+  /*  */
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: black;
+  font-weight: 900;
+}
+.nav.navbar-nav.navbar-right li a:hover {
+  font-weight: 900;
+  color: #2e4c6d;
+}
+p a {
+  color: blue;
+  font-weight: 900;
+}
+
+#collapse {
+  border: none !important;
+  outline: none !important;
+}
+
+/* .navbar {
+  box-shadow: 0px 16px 16px -6px rgba(1, 1, f, 1);
+} */
+
+.up {
+  float: right;
+  opacity: 1;
+  margin-right: 5%;
+  width: 4%;
+  height: 10%;
+  border-radius: 50%;
+}
+.up:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #eaeaea;
+  }
+}
