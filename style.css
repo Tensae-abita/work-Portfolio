@@ -13,7 +13,7 @@ html {
   height: 100%;
 }
 .theBody {
-  background-color: #eaeaea;
+  background-color: #f5f5f5;
 }
 .heading_body {
   padding-top: 10%;
@@ -82,7 +82,7 @@ h3 {
   color: #69dadb;
 }
 .bottom-container {
-  margin-top: 60px;
+  margin-top: 0px;
   background-color: #041c32;
   padding: 50px 0 20px;
 }
@@ -132,6 +132,9 @@ a {
 
 .contact-me {
   margin-top: 10% auto;
+}
+.Contact {
+  padding-bottom: 5%;
 }
 
 /*******************************************about me**************************************/
@@ -212,10 +215,10 @@ h4 {
 }
 #project2 {
   width: 90%;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
+  margin-top: 0%;
   height: 80%;
 }
 .InnerProject2 {
@@ -223,22 +226,67 @@ h4 {
 }
 .project2 {
   float: left;
-  width: 30%;
-  height: 60%;
+  width: 20%;
+  height: 100%;
+  margin-top: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
+}
+.project22 {
+  float: right;
+  width: 20%;
+  height: 100%;
+  margin-top: 3%;
+  margin-left: 3%;
+  border-radius: 10px;
+  background-image: url(images/clima2.jpg);
+  background-size: cover;
+}
+
+.project22:hover {
+  float: right;
+  width: 20%;
+  height: 100%;
+  margin-top: 3%;
+  margin-left: 3%;
+  border-radius: 10px;
+  background-image: url(images/clima3.jpg);
+  background-size: cover;
 }
 .proj1 {
   float: right;
-  width: 30%;
+  width: 60%;
   height: 60%;
+  background-image: url(images/Ajent.png);
+  background-size: cover;
+}
+.proj1:hover {
+  float: right;
+  width: 60%;
+  height: 60%;
+  background-image: url(images/Ajent2.png);
+  background-size: cover;
 }
 .proj3 {
   float: left;
-  width: 30%;
-  height: 60%;
+  width: 20%;
+  height: 90%;
+  margin-top: 3%;
+  margin-right: 1%;
+  border-radius: 10px;
+}
+.proj33 {
+  float: left;
+  width: 20%;
+  height: 90%;
+  margin-top: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
 }
 .projectlist {
   text-align: left;
   line-height: 2;
+  padding-top: 3%;
 }
 .projectlist3 {
   text-align: left;
@@ -265,7 +313,8 @@ h4 {
 .project3 {
   height: 90%;
   width: 90%;
-  margin: 5% auto;
+  margin: 0% auto;
+  margin-bottom: 5%;
 }
 .innerProject3 {
   padding-top: 5%;
@@ -307,6 +356,7 @@ p a {
   width: 4%;
   height: 10%;
   border-radius: 50%;
+  background-color: #eeeeee;
 }
 .up:hover {
   opacity: 0.8;
@@ -316,4 +366,74 @@ p a {
   .navbar-collapse {
     background-color: #eaeaea;
   }
+  .project2 {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .project22 {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .proj1 {
+    width: 100%;
+    display: block;
+    height: 30%;
+  }
+  .projectlist {
+    display: block;
+  }
+  .proj3 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 60%;
+  }
+  .proj33 {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .Contact {
+    margin-top: 50%;
+  }
+}
+#about {
+  width: 80%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 0px;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+  text-align: left;
+}
+#chat {
+  padding-top: 10%;
+}
+#chat3 {
+  background-image: url(images/chat2.jpg);
+  background-size: cover;
+}
+#chat3:hover {
+  background-image: url(images/chat3.jpg);
+  background-size: cover;
+}
+
+.weather {
+  margin-bottom: 0px;
+  height: 100%;
+  background-color: #2a2c25;
+  color: white;
+}
+.chat {
+  margin-top: 0px;
+  background-color: #fff;
+  height: 100%;
+}
+.ajent {
+  background-color: #f5ffff;
+  height: 100%;
 }
