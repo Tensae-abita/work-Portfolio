@@ -443,6 +443,9 @@ p a {
     background-image: url(images/theback.jpg);
     background-size: cover;
   }
+  .mobileDev {
+    margin-top: 10%;
+  }
   .profile {
     display: none;
   }
