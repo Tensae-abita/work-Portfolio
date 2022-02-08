@@ -373,16 +373,21 @@ p a {
   .navbar-collapse {
     background-color: #eaeaea;
   }
-  /* .project2 {
-    width: 100%;
-    height: 100%;
-    display: block;
+  .headingName {
+    font-family: "Dancing Script", cursive;
+    font-size: 600%;
+    color: #0f0e0e;
   }
-  
-  
-  .projectlist {
-    display: block;
-  }*/
+  .icon-bar {
+    color: #eaeaea;
+    background-color: #eaeaea;
+  }
+  .heading {
+    color: #0f0e0e;
+    font-family: "Dongle", sans-serif;
+    font-size: 300%;
+    font-weight: 500;
+  }
   .proj3 {
     height: 50%;
     width: 40%;
