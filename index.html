@@ -163,9 +163,9 @@
             to the agency.
           </p>
           <br /><br />
-          <p class="projectlist" data-aos="fade-right" data-aos-duration="1500">
+          <!-- <p class="projectlist" data-aos="fade-right" data-aos-duration="1500">
             you can check this out more in <a href=" https://temmari.herokuapp.com/">Here</a>
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
@@ -264,7 +264,7 @@
       <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
       <a class="footer-link" href="https://facebook.com/">facebook</a>
       <h5 class="phone">📞 +251-918-208-531</h5>
-      <p id="copy">©2021 Tensae Abita.</p>
+      <p id="copy">©<span id="year"></span> Tensae Abita.</p>
     </div>
   </body>
 </html>
@@ -272,4 +272,5 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
+document.getElementById('year').innerHTML=new Date().getFullYear();
 </script>
